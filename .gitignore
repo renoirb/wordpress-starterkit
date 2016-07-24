@@ -1,0 +1,12 @@
+config.wordpress.php
+env-local.php
+public/bower_modules
+public/wp-content/debug.log
+public/wp-content/themes/twentyfifteen/
+public/wp-content/plugins/
+public/wp-content/plugins/README.md
+public/wp-content/uploads/
+public/backoffice
+public/.htaccess
+composer_modules/
+bower.json

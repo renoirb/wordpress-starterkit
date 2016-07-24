@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * Use this file for local development.
+ *
+ * If you want to deploy, refer to init.php
+ * you should use a file called env-local.php
+ **/
+
+/**
+ * Database configuration
+ */
+define('DB_NAME', 'whitelabel');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost');
+define('DB_CHARSET', 'utf8');
+define('DB_COLLATE', '');
+
+# vi set ai syntax=php

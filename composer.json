@@ -1,0 +1,32 @@
+{
+   "name": "renoirb/wordpress-starterkit"
+  ,"type": "project"
+  ,"require": {
+     "johnpbloch/wordpress": ">=4.2"
+    ,"wpackagist-plugin/google-analytics-for-wordpress": "5.5.2"
+    ,"wpackagist-plugin/json-rest-api": "~1.2.5"
+    ,"ext-pdo": "*"
+  }
+  ,"autoload": {
+      "files": [
+         "init.php"
+      ]
+  }
+  ,"config": {
+       "vendor-dir": "composer_modules"
+      ,"secure-http": false
+  }
+  ,"extra": {
+       "installer-paths" : {
+          "public/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
+          "public/wp-content/themes/{$name}/": ["type:wordpress-theme"]
+       }
+      ,"wordpress-install-dir": "public/backoffice"
+  }
+  ,"repositories": [
+    {
+       "type": "composer"
+      ,"url" : "https://wpackagist.org"
+    }
+  ]
+}
